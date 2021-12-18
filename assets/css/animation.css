@@ -1,0 +1,291 @@
+.animation-page-header {
+    display: none;
+
+    @media (--viewport-md-min) {
+        display: block;
+        position: absolute;
+        z-index: 0;
+        top: 206.08px;
+        left: 135px;
+    }
+}
+
+.animation-pageheader-right {
+    display: none;
+
+    @media (--viewport-md-min) {
+        display: block;
+
+        position: absolute;
+        z-index: 0;
+        top: 342.33px;
+        right: 135px;
+    }
+}
+
+.info-box-animation {
+    display: none;
+
+    @media (--viewport-md-min) {
+        position: absolute;
+        z-index: 0;
+        top: 35px;
+        display: block;
+        right: 135px;
+    }
+}
+
+.info-box-left-animation {
+    display: none;
+
+    @media (--viewport-md-min) {
+        position: absolute;
+        z-index: 0;
+        top: 25px;
+        display: block;
+        right: 135px;
+    }
+}
+
+.overview-block-animation-top {
+    display: none;
+
+    @media (--viewport-md-min) {
+        position: absolute;
+        z-index: 0;
+        top: 25px;
+        display: block;
+        right: 135px;
+    }
+}
+
+.overview-block-animation-left {
+    display: none;
+
+    @media (--viewport-md-min) {
+        position: absolute;
+        z-index: 0;
+        top: 25px;
+        display: block;
+        left: 135px;
+    }
+}
+
+.slider-animation {
+    display: none;
+
+    @media (--viewport-md-min) {
+        position: absolute;
+        z-index: 0;
+        top: 25px;
+        display: block;
+        left: 135px;
+    }
+}
+
+.accordion-animation {
+    display: none;
+
+    @media (--viewport-md-min) {
+        position: absolute;
+        z-index: 0;
+        top: 25px;
+        display: block;
+        left: 135px;
+    }
+}
+
+.accordion-animation-left {
+    display: none;
+
+    @media (--viewport-md-min) {
+        position: absolute;
+        z-index: 0;
+        top: 650px;
+        display: block;
+        left: 135px;
+    }
+}
+
+.accordion-animation-right {
+    display: none;
+
+    @media (--viewport-md-min) {
+        position: absolute;
+        z-index: 0;
+        top: 650px;
+        display: block;
+        right: 135px;
+    }
+}
+
+.pageheader-animation-mobile {
+    display: block;
+    position: absolute;
+    z-index: 0;
+    top: 56px;
+    left: 23.54px;
+
+    @media (--viewport-md-min) {
+        display: none;
+
+    }
+}
+
+
+/*mobile */
+.pageheader-animation-mobile-right {
+    display: block;
+    position: absolute;
+    z-index: 0;
+    top: 185px;
+    left: 250px;
+
+    @media (--viewport-md-min) {
+        display: none;
+
+    }
+}
+
+.infobox-animation-mobile {
+    display: block;
+    position: absolute;
+    z-index: 0;
+    top: 25px;
+    left: 250px;
+
+    @media (--viewport-md-min) {
+        display: none;
+    }
+}
+
+.infobox-left-animation-mobile {
+    display: block;
+    position: absolute;
+    z-index: 0;
+    top: 50px;
+    left: 250px;
+
+    @media (--viewport-md-min) {
+        display: none;
+    }
+}
+
+
+.overview-block-animation-mobile-top {
+    display: block;
+    position: absolute;
+    z-index: 0;
+    top: 15px;
+    left: 250px;
+
+    @media (--viewport-md-min) {
+        display: none;
+    }
+}
+
+.overview-block-animation-mobile-bottom {
+    display: block;
+    position: absolute;
+    z-index: 0;
+    bottom: 15px;
+    right: 250px;
+
+    @media (--viewport-md-min) {
+        display: none;
+    }
+}
+
+.slider-mobile-top-animation {
+    display: block;
+    position: absolute;
+    z-index: 0;
+    top: 58px;
+    right: 250px;
+
+    @media (--viewport-md-min) {
+        display: none;
+    }
+}
+
+.slider-bottom-mobile-animation {
+    display: block;
+    position: absolute;
+    z-index: 0;
+    bottom: 10px;
+    right: 250px;
+
+    @media (--viewport-md-min) {
+        display: none;
+    }
+}
+
+.accordion-animation-mobile-top {
+    display: block;
+    position: absolute;
+    z-index: 0;
+    top: 50px;
+    right: 180px;
+
+    @media (--viewport-md-min) {
+        display: none;
+    }
+}
+
+.accordion-animation-mobile-left-bottom {
+    display: block;
+    position: absolute;
+    z-index: 0;
+    bottom: 20px;
+    right: 250px;
+
+    @media (--viewport-md-min) {
+        display: none;
+    }
+}
+
+.accordion-animation-mobile-right-bottom {
+    display: block;
+    position: absolute;
+    z-index: 0;
+    bottom: 20px;
+    left: 200px;
+
+    @media (--viewport-md-min) {
+        display: none;
+    }
+}
+
+.group-one {
+    animation: fadeIn 2.5s infinite alternate;
+}
+
+.group-two {
+    animation: fadeIn 3.5s infinite alternate;
+}
+
+.group-three {
+    animation: fadeIn 3s infinite alternate;
+}
+
+.group-four {
+    animation: fadeIn 4s infinite alternate;
+}
+
+.group-five {
+    animation: fadeIn 5s infinite alternate;
+}
+
+.group-six {
+    animation: fadeIn 6s infinite alternate;
+}
+
+.group-seven {
+    animation: fadeIn 1.8s infinite alternate;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+}
